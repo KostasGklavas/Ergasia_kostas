@@ -1,3 +1,15 @@
+body{font-family: 'Poppins';}
+ 
+section.hero h1 {font-family: 'Poppins Bold'; 
+  color: white;
+  font-size: 5rem;
+  letter-spacing: .1rem;}
+
+  section.hero p{color: #fff;
+  font-size: 2.5rem;
+  letter-spacing: .1rem;
+}
+
 .test {
     border: 1px solid red;
   }
