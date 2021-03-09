@@ -1,14 +1,69 @@
 body{font-family: 'Poppins';}
  
-section.hero h1 {font-family: 'Poppins Bold'; 
+section.hero h1 {font-family: 'Poppins ExtraBold'; 
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: .1rem;}
 
-  section.hero p{color: #fff;
-  font-size: 2.5rem;
+  section.hero p{
+    font-family: 'Poppins Thin';
+    color: #fff;
+  font-size: 1.5rem;
   letter-spacing: .1rem;
 }
+
+/*about start*/
+ section.about{
+  height: 100vh;
+  background: rgb(235,235,235);
+  background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 40%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+ }
+
+ h3 {
+  font-family: 'Poppins Bold';
+  font-size: 2.425rem;
+  letter-spacing: .02rem;
+}
+
+span {
+  font-size: 1.3125rem;
+  letter-spacing: .08rem;
+}
+
+p {
+  font-family: 'Poppins Thin';
+  font-size: 1.3125rem;
+  letter-spacing: .04rem;
+}
+section.hero::before {
+  content: " ";
+  width: 100%;
+  height: 80vh;
+  background: #000;
+  position: absolute;
+  opacity: .24;
+}
+
+section.about {
+  height: 100vh;
+  background: rgb(235,235,235);
+  background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 40%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+}
+
+section.about .image_wrapper {
+  background: #fff;
+  box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.57);
+  -webkit-box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.57);
+  -moz-box-shadow: 10px 10px 24px 1px rgba(0,0,0,0.57);
+  text-align: center;
+}
+
+section.about .image_wrapper img {
+  padding: 1rem;
+}
+
+/*about end*/
+
 
 .test {
     border: 1px solid red;
